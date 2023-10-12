@@ -1,0 +1,114 @@
+#form{
+
+
+    .container{
+       
+        text-align: center;
+        margin: 0 auto;
+
+        .join_form{
+            padding: 90px 111px 84px;
+            border-radius: 100px;
+
+            .form_text{
+                h2{
+                    color: #FFF;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+position: relative;
+&::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    width: 29%;
+    height: 2px;
+    background: #343045;
+}
+                }
+                h3{
+                    color: #FFF;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-align: center;
+margin-bottom: 51px;
+                }
+
+
+            }
+    
+        }
+
+        form{
+            input{
+                outline: none;
+                color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+            }
+
+            .form01{
+                display: flex;
+                column-gap: 10px;
+                
+                input{
+                    padding: 27px 265px 28px 40px;
+                    border-radius: 40px;
+                    margin-bottom: 39px;
+                    background: transparent;
+                    border: 2px solid #FFFFFF;
+                    margin-left: 18px;
+                }
+            }
+            .subject{
+                input{
+                    padding: 27px 755px 28px 42px;
+                    margin-bottom: 33px;
+                    border-radius: 40px;
+                    background: transparent;
+                    border: 2px solid #FFFFFF;
+
+                }
+            }
+            textarea{
+
+                padding: 34px 680px 0px 42px;
+                border-radius: 40px;
+                background: transparent;
+                border: 2px solid #FFFFFF;
+                color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+outline: none;
+
+            }
+        }
+        
+        .form_btn{
+            color: #343045;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 17px 55px;
+border-radius: 40px;
+background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+margin-top: 51px;
+
+        }
+    }
+}

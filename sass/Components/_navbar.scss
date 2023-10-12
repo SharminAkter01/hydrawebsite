@@ -1,0 +1,75 @@
+.navbar{
+   
+    width: 100%;
+    margin: 0 auto;
+
+    margin: 0px;
+
+    .container{
+        
+
+     
+        display: flex;
+        align-items: center;
+
+        .navbar-brand{
+            padding: 0;
+            margin: 0;
+            img{
+                width: 193px;
+              
+            }
+        }
+
+        .navbar-nav{
+            display: flex;
+            column-gap: 23px;
+   
+            .nav-item{
+                .nav-link{
+color: #FFF;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 0;
+                }
+            }
+        }
+        button{
+            padding: 17px 37px;
+            color: #343045;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 40px;
+transition: all .4s linear;
+&:hover{
+      
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    color: #343045;
+    padding: 17px 37px;
+    border:none;
+   
+
+}
+           
+           
+        }
+        .btn1{
+            background: transparent;
+            border: 2px solid #FFFFFF;
+            color: #FFF;
+            margin-right: 21px;
+        }
+    }
+         .btn2{
+           
+           background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+           color: #343045;
+           border: none;
+         }
+}

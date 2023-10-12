@@ -1,0 +1,99 @@
+#banner{
+    padding: 50px 0 103px;
+   
+    
+
+    .container{
+
+        .row{
+            margin-top: 100px;
+            .col-lg-7{
+           
+
+                .banar_text{
+            
+              
+
+                    h1{
+
+ background: linear-gradient(269deg, #C0B7E8 -3.72%, #8176AF 82.17%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Montserrat;
+font-size: 46px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 522px;
+span{
+    background: linear-gradient(269deg, #f3eded -3.72%, #ffffff 82.17%);
+    background-clip: text;
+}
+
+
+
+                    }
+                    p{
+ color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+width: 450px;
+margin: 36px 0 66px ;
+                    }
+
+                    .banner_btn{
+                        display: flex;
+                        align-items: center;
+                        column-gap: 11px;
+                        
+
+                        button{
+                            color: #343045;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 17px 43px 16px 38px;
+border-radius: 40px;
+background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+                        }
+                        i{
+ 
+                            font-size: 41px;
+                            color: #C0B7E8;
+                        }
+                    }
+                }
+                
+         
+            }
+            .col-lg-5{
+               
+                border-radius: 215px 215px 215px 484px;
+                box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.274);
+                width: 490px;
+                padding: 10px 5px ;
+                background: #00000034;
+            
+
+                .image{
+                    width: 100%;
+        
+                    
+                }
+                img{
+                    width: 100%;
+                    border-radius: 215px 215px 215px 484px;
+
+                    
+                }
+            }
+
+        }
+    }
+}
